@@ -1,0 +1,1 @@
+(function(o){"use strict";const{getChannelId:t}=o.findByProps("getChannelId","getVoiceChannelId"),n=async e=>{e.code=="F5"&&(e.preventDefault(),console.log(t()))};var d=e=>({onLoad(){document.addEventListener("keydown",n)},onUnload(){document.removeEventListener("keydown",n)}});return d})(cumcord.modules.webpack);
